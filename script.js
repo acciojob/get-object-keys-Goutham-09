@@ -2,7 +2,7 @@
 let student={
 	name:"goutham"
 }
-fuction getkeys(student){
-	return Object.keys(student)
+fuction getKeys(obj){
+	return Object.keys(obj)
 }
-console.log(getkeys(student))
+console.log(getKeys(student))
