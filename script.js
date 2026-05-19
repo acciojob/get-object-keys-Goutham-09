@@ -5,3 +5,4 @@ let student={
 fuction getkeys(student){
 	return Object.keys(student)
 }
+console.log(getkeys(student))
